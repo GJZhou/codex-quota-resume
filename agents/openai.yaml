@@ -1,0 +1,7 @@
+interface:
+  display_name: "Codex Quota Resume"
+  short_description: "为指定 Codex 聊天创建额度恢复后的定时续接任务"
+  default_prompt: "Use $codex-quota-resume to schedule a one-time quota recovery check and resume only the specified Codex chats when safe."
+
+policy:
+  allow_implicit_invocation: true
